@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/app.js"></script>
+</head>
+<body>
+    <form action="">
+        <figure>
+            <img src="img/osa.jpg" alt="elemento del carrusel" name="elemento">
+        </figure>
+        <fieldset>
+            <legend>Botones para Rotar</legend>
+            <input type="button" onclick="anterior()" value="<< Anterior">
+            <input type="button" onclick="siguiente()" value="Siguiente >>">
+        </fieldset>
+        <fieldset>
+            <legend>Detalles</legend><br>
+            <label for="">Especie: </label>
+            <input type="text" id="especie"><br><br>
+            <label for="">Altura: </label>
+            <input type="text" id="altura"><br><br>
+            <label for="">Anchura: </label>
+            <input type="text" id="anchura"><br><br>
+            <label for="">Ejemplares: </label>
+            <input type="text" id="ejemplares"><br><br>
+            <input type="button" value="Donar" onclick="donar()">
+        </fieldset>
+    </form>
+</body>
+</html>

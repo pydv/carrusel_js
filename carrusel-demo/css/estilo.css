@@ -1,0 +1,10 @@
+figure img{
+    width: 300px;
+    height: 300px;
+    border-radius: 5%;
+}
+
+form fieldset{
+    width: 300px;
+    text-align: center;
+}

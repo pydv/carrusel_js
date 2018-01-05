@@ -1,0 +1,23 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+body form{
+    background-color: #ab90cc;
+    width: 350px;
+    padding: 15px;
+    text-align: center;
+}
+
+form figure img{
+    width: 280px;
+    height: 200px;
+    border-radius: 5%;
+}
+
+form fieldset{
+    width: 300px;
+    border-radius: 5px;
+    text-align: center;
+}
